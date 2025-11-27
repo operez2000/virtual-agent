@@ -44,11 +44,17 @@ export default async function Dashboard() {
                 className="grid grid-cols-1 md:grid-cols-3 gap-6"
             >
                 {/* Row 1: Assistant Status & Call Simulator */}
-                <div className="md:col-span-1">
+                <div
+                    suppressHydrationWarning
+                    className="md:col-span-1"
+                >
                     <AssistantStatus />
                 </div>
 
-                <div className="md:col-span-2">
+                <div
+                    suppressHydrationWarning
+                    className="md:col-span-2"
+                >
                     <CallSimulator />
                 </div>
 
@@ -86,7 +92,10 @@ export default async function Dashboard() {
                     )}
                 </div>
 
-                <div className="md:col-span-2">
+                <div
+                    suppressHydrationWarning
+                    className="md:col-span-2"
+                >
                     <CallLogs />
                 </div>
             </div>

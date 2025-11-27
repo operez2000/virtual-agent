@@ -24,6 +24,12 @@
 .DS_Store
 *.pem
 
+# Docs
+/docs
+
+# Supabase
+.supabase
+
 # debug
 npm-debug.log*
 yarn-debug.log*
